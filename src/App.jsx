@@ -7,6 +7,7 @@ const App = () => {
   const [score, setScore] = useState(0);
   const [showResultsModal, setShowResultsModal] = useState(false);
 
+  // Questions array (no duplicates)
   const questions = [
     {
       question: "أنا ______ معلم.",
